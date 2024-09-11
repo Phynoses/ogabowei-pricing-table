@@ -1,0 +1,97 @@
+body {
+    font-family: 'sono' sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg, #0e131f 0%, #1c2436 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pricing-tables{
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.pricing-tables .table {
+    border: 1px #3c5f6e solid;
+    padding: 2em;
+    width: 10em;
+    height: 25em;
+    background: linear-gradient(0deg, #0e131f 0%, #1f283b 100%);
+    color: #fff;  
+}
+
+.pricing-tables .table a {
+    padding: 0.5rem 3.3rem;
+    font-size: 0.9rem;
+    border-radius: 3rem;
+    border: #5fa3b6 2px solid;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.pricing-tables .table a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.pricing-tables .table-main {
+    border: 5px #509fb5 solid;
+}
+
+.pricing-tables .table-main a {
+    background: #47c2e4;
+    border: none;
+    padding: 0.6em 3.5em;
+}
+
+.pricing-tables .table-main a:hover{
+    background: #31bbe1;
+}
+
+.pricing-tables h3 {
+    color: #47c2e4;
+    font-style: italic;
+}
+
+.pricing-tables h4 {
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.pricing-tables h1 {
+    font-size: 3em;
+    margin: 0;
+    font-weight: 400;
+}
+
+.pricing-tables h1 sup {
+    font-size: 0.6em;
+}
+
+.pricing-tables .features {
+    padding: 0;
+    list-style: none;
+    height: 48%;
+}
+
+.pricing-tables .features li {
+    margin: 0.6em 0;
+    color: #bdcad3;
+
+}
+
+.bowei-pricing-tables-1 .author{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    color: #31bbe1;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 2px;
+}
